@@ -1,0 +1,44 @@
+.chatIndiavidual {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 10px 20px;
+
+    .chatheader {
+        display: block;
+        width: 100%;
+        height: fit-content;
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+
+            .name {
+                color: #E2E3E5;
+                font-size: 14px;
+                font-family: Lato, sans-serif;
+                font-weight: 700;
+                line-height: 21px;
+
+                overflow: hidden;
+                display: -webkit-box;
+                line-clamp: 1;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+            }
+
+            .status {
+                color: #8083A3;
+                font-size: 12px;
+                font-family: Lato, sans-serif;
+                line-height: 18px;
+
+                overflow: hidden;
+                display: -webkit-box;
+                line-clamp: 1;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+            }
+        }
+    }
+}
